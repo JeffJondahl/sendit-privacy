@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Send It — Support</title>
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --text: #1b2a2a;
+    --muted: #5b6b6b;
+    --accent: #2e8fa8;
+    --rule: #dcd7cb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181a;
+      --text: #eef0ee;
+      --muted: #9aa6a6;
+      --accent: #5ec9d9;
+      --rule: #2a3133;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 56px 20px 80px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 24px;
+    letter-spacing: -0.01em;
+  }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  .email {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Send It — Support</h1>
+  <p>Send It is a personal air quality and pollen conditions app for iPhone and CarPlay.</p>
+  <p>Questions, bug reports, or feature requests — reach out directly:</p>
+  <a class="email" href="mailto:jeffjondahl@gmail.com">jeffjondahl@gmail.com</a>
+  <p style="margin-top: 32px;">For details on what data the app uses, see the <a href="./">privacy policy</a>.</p>
+  <footer>Send It — Support</footer>
+</main>
+</body>
+</html>
